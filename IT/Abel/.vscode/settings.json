@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.bl[0-9]": true,
+        "**/*.jhd": true,
+        "**/*.naf": true,
+        "**/*.err": true,
+        "**/*.rs[0-9]": true,
+        "**/*.dum": true,
+        "**/*.env": true,
+        "**/*.svl": true,
+        "**/*_1_2*": true,
+    }
+}

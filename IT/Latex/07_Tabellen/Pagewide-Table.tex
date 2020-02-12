@@ -1,0 +1,25 @@
+\section{Seitenweite Tabellen}
+
+\begin{table}
+	\begin{tabularx}{\textwidth}{XXXXXXXX} \toprule
+		Spalte1 & Spalte2 & Spalte3 & Spalte4 & Spalte5
+		& Spalte6 & Spalte7 & Spalte8 \\ \midrule
+		AA & BB & CC & DD &
+		EE & FF & GG & HH \\ \midrule
+		AA & BB & CC & DD
+		& EE & FF & GG & HH
+		\\ \bottomrule
+	\end{tabularx}
+	\caption{Tabelle in Seitenbreite, mit tabularx}
+\end{table}
+
+\begin{table}[ht]
+	\begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}} | l | l | }
+		\hline
+		\textbf{KE 4: Weiterführende Themenbereiche} & (von Auer)\\ & \\
+		& \\
+		& \\
+		\hline
+	\end{tabular*}
+	\caption{Tabelle in Seitenbreite, mit tabular*}
+\end{table}

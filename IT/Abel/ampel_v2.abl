@@ -1,0 +1,40 @@
+MODULE Ampel_V2
+
+TITLE 'Ampel_V2'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-04-05
+// Aufgabe:	Ampelanlage
+
+DECLARATIONS
+// Eingangssignale
+Clock PIN 88;
+
+// Zwischensignale
+Q0,Q1 NODE ISTYPE 'Buffer,reg';
+
+// Ausgangssignale
+R,Y,G PIN 67,71,70;
+
+EQUATIONS
+Q0.clk = Clock;
+Q1.clk = Clock;
+
+// Gleichungen f�r das Schaltwerk
+Q0.d = !Q0.q;
+Q1.d = Q0.q $ Q1.d;
+
+// Gleichungen f�r das Schaltnetz
+R = !Q1;
+Y = Q0;
+G = !Q0 & Q1;
+
+//TRUTH_TABLE
+//([Q1,Q0] -> [R,Y,G]);
+// [ 0, 0] -> [1,0,0];
+// [ 0, 1] -> [1,1,0];
+// [ 1, 0] -> [0,0,1];
+// [ 1, 1] -> [0,1,0];
+
+END

@@ -1,0 +1,9 @@
+*.bl*
+*.jhd
+*.naf
+*.err
+*.rs*
+*.dum
+*.env
+*.svl
+*_1_2*

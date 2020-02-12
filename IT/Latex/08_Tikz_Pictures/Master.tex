@@ -1,0 +1,40 @@
+\documentclass[10pt,a4paper]{article}
+\input{Preambel}
+
+\begin{document}
+
+\section{Linien}
+\subsection{Gerade Linien}
+\begin{tikzpicture}
+	\draw[->, line width=2pt] (0,0) -- +(2,0);
+\end{tikzpicture}
+
+\subsection{Diagramm}
+
+\begin{tikzpicture}
+	\draw[<->] (0.25,7.25) -- (0.25,0.25) -- (7.25,0.25);
+	
+	\foreach \i in {1,...,6}
+		{
+			\draw (0,\i+0.25) -- +(0.5,0);
+			\draw (\i+0.25,0) -- +(0,0.5);
+		}
+			
+	\draw (5.25,0.25) -- (0.25,5.25);
+	
+\end{tikzpicture}
+
+\subsection{Koordinaten}
+\begin{tikzpicture}
+
+	\coordinate[label=left:$A$] (A) at (0,0);
+	\coordinate[label=right:$B$] (B) at (4,1);
+	
+	\draw (A) -- (B);
+	
+	\fill (A) circle (2pt);
+	\fill (B) circle (2pt);
+
+\end{tikzpicture}
+
+\end{document}

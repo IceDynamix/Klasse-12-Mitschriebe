@@ -1,0 +1,24 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.LST": true,
+        "**/*.OBJ": true,
+        "**/*.mac": true,
+        "**/*.dep": true,
+        "**/*.XML": true,
+        "**/*.AOF": true,
+        "**/*.BIN": true,
+        "**/*.ctx": true,
+        "**/*.dbi": true,
+        "**/*.HEX": true,
+        "**/*.M51": true,
+        "**/*.rapp": true,
+        "**/*.rprj": true,
+        "**/*.xdb": true,
+        "**/*.XRF": true,
+    }
+}

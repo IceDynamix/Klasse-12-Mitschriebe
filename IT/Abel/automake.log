@@ -1,0 +1,136 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Fit Design
+Cannot get current project information.
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\ahdl2blf.exe modelleisenbahn.abl -mod Modelleisenbahn -ojhd compile -ret -def _AMDMACH_ _MACH_ _LSI5K_ _LATTICE_ _PLSI_  -err automake.err -gui'
+
+AHDL2BLF  ABEL-HDL Processor
+ispLEVER 6.1 Copyright(C), 1992-2005, Lattice Semiconductor Corporation. All rights reserved
+Portions Copyright(c), 1992-1999, Vantis Corporation
+Portions Copyright(C), 1993-1998, Data I/O Corporation
+Portions Copyright(C), 1997-1998, MINC Washington Corporation
+Portions Copyright(C), Alan Phillips, Lancaster University Computer Centre 1992-1998
+Module: 'Modelleisenbahn'
+
+  Processing equations...
+  Processing truth table...
+  Processing truth table...
+  Processing truth table...
+  Processing truth table...
+
+  Module parsing complete. Building logic network...
+
+  Creating Open-ABEL 2 (BLIF) file modelleisenbahn.bl0...
+
+
+
+Module 'modelleisenbahn' processing complete.
+
+AHDL2BLF complete - 0 errors, 0 warnings. Time: 1 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\mblifopt.exe Modelleisenbahn.bl0 -collapse none -reduce none -err automake.err -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor
+ispLEVER 6.01 Copyright 1992-2006 Lattice Semiconductor. All Rights Reserved.
+Reading Open-ABEL 2 file Modelleisenbahn.bl0...
+Writing Open-ABEL 2 (BLIF) file Modelleisenbahn.bl1...
+Note    0: 
+BLIFOPT complete - Time 0 seconds
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\mblflink.exe "Modelleisenbahn.bl1" -o "ti_1_2.bl2" -omod "ti_1_2" -gui -err "automake.err"'
+
+BLIFLINK  Top-Down Design Linker
+ispLEVER 6.01 Copyright 1992-2006 Lattice Semiconductor. All Rights Reserved.
+
+Top-level file: 'Modelleisenbahn.bl1'
+
+Hierarchical BLIF: 'ti_1_2.bl2'
+
+BLIFLINK complete.  Time: 1 second 
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\impsrc.exe -gui -prj ti_1_2 -lci ti_1_2.lct -log ti_1_2.imp -err automake.err -tti ti_1_2.bl2 -dir d:\j.nguyen'
+
+Source constraints were successfully imported to the current project.
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\abelvci.exe -vci ti_1_2.lct -blifopt ti_1_2.b2_'
+
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\mblifopt.exe ti_1_2.bl2 -sweep -mergefb -err automake.err -o ti_1_2.bl3 @ti_1_2.b2_ -gui'
+
+BLIFOPT  Open-ABEL Optimizer 
+U.C. Berkeley, SIS Ver. 1.0, supported by Lattice Semiconductor
+ispLEVER 6.01 Copyright 1992-2006 Lattice Semiconductor. All Rights Reserved.
+Reading Open-ABEL 2 file ti_1_2.bl2...
+Merging feedbacks...
+Note 13707: Fmax mode satisfied
+Control path optimization...
+Performing 'bypin choose' optimization...
+Note    0: Estimated (clusters + macrocells): 12, Fmax Logic Level: 1
+Writing Open-ABEL 2 (BLIF) file ti_1_2.bl3...
+Note    0: 
+BLIFOPT complete - Time 0 seconds
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\abelvci.exe -vci ti_1_2.lct -dev lc4k -diofft ti_1_2.d0'
+
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\mdiofft.exe ti_1_2.bl3 -family AMDMACH -idev van -o ti_1_2.bl4 -oxrf ti_1_2.xrf -err automake.err @ti_1_2.d0 -gui'
+
+DIOFFT  Flip-Flop Transformation program
+ispLEVER 6.01 Copyright 1992-2006 Lattice Semiconductor. All Rights Reserved.
+Input file: ti_1_2.bl3.
+Output file: ti_1_2.bl4.
+Cross reference file: ti_1_2.xrf.
+
+.........................
+Shortening signal names...
+Writing signal name cross reference file ti_1_2.xrf... 
+
+DIOFFT complete - Time 0 seconds
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\abelvci.exe -vci ti_1_2.lct -dev lc4k -prefit ti_1_2.l0'
+
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\prefit.exe -blif -inp ti_1_2.bl4 -out ti_1_2.bl5 -err automake.err -log ti_1_2.log -mod Modelleisenbahn @ti_1_2.l0 -gui -sc'
+
+Prefit Logic Optimizer (Oct  3 2006)  Sat Jul 13 09:00:09 2019
+
+C:\ispTOOLS6_1_STRT\ispcpld\bin\prefit.exe -blif -inp ti_1_2.bl4 -out ti_1_2.bl5 -err automake.err -log ti_1_2.log -mod Modelleisenbahn @ti_1_2.l0 -gui -sc 
+Number of pins (IO)    :     8
+Number of outputs (MC) :    11
+Number of registers    :     5
+Number of logic pterms :    13
+C:\ispTOOLS6_1_STRT\ispcpld\bin\prefit.exe complete - Time 0 seconds
+
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\lpf4k.exe @"ti_1_2.rs2"'
+
+Project 'ti_1_2' was Fitted Successfully!
+
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\tda.exe -i ti_1_2.bl5 -o ti_1_2.tda -lci ti_1_2.lct -dev m4s_128_64 -family lc4k -mod Modelleisenbahn -ovec NoInput.tmv -err tda.err -gui'
+
+TDA  - Timing Driven Analyze 
+Ver. 1.0, supported by Lattice Semiconductor
+ispLEVER 6.01 Copyright 1992-2006 Lattice Semiconductor. All Rights Reserved.
+
+TDA complete - Time 1 seconds
+Done: completed successfully.
+
+Starting: 'C:\ispTOOLS6_1_STRT\ispcpld\bin\synsvf.exe -exe "C:\ispTOOLS6_1_STRT\ispvmsystem/ispufw" -prj ti_1_2 -if ti_1_2.jed -j2s -log ti_1_2.svl -gui'
+
+Need not generate svf file according to the constraints, exit
+Done: completed successfully.

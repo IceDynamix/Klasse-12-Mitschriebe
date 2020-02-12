@@ -1,0 +1,58 @@
+MODULE Modelleisenbahn
+
+TITLE 'Modelleisenbahn'
+
+// Name:    ~
+// Klasse:  ~ B
+// Datum:   2019-07-12
+// Aufgabe: Abi Aufgabe HP 2015/2016 (Aufgabe 1 Modelleisenbahn)
+
+DECLARATIONS
+// Eingangssignale
+Takt PIN 89;	// 1 Hz
+
+// Zwischensignale
+Q0,Q1 NODE ISTYPE 'Buffer,reg';
+T0..T2 NODE ISTYPE 'Buffer,reg'; // Frequenzteiler
+
+// Ausgangssignale
+Y2,Y1,Y0 PIN 86,67,70 ISTYPE 'Buffer,com';
+G0..G3 PIN 61..58 ISTYPE 'Buffer,com';
+
+EQUATIONS
+T0.clk = Takt;
+T1.clk = Takt;
+T2.clk = Takt;
+Q0.clk = T0;
+Q1.clk = T0;
+
+TRUTH_TABLE // SW
+([T0,T1,T2]:>[T0,T1,T2]);
+ [ 0, 0, 0]:>[ 0, 0, 1];
+ [ 0, 0, 1]:>[ 0, 1, 0];
+ [ 0, 1, 0]:>[ 0, 1, 1];
+ [ 0, 1, 1]:>[ 1, 0, 0];
+ [ 1, 0, 0]:>[ 0, 0, 0];
+
+TRUTH_TABLE // SW
+([Q0,Q1]:>[Q0,Q1]);
+ [ 0, 0]:>[ 0, 1];
+ [ 0, 1]:>[ 1, 0];
+ [ 1, 0]:>[ 1, 1];
+ [ 1, 1]:>[ 0, 0];
+
+TRUTH_TABLE // Codierer
+([Q0,Q1]->[Y2,Y1,Y0]);
+ [ 0, 0]->[ 0, 0, 0];
+ [ 0, 1]->[ 0, 1, 0];
+ [ 1, 0]->[ 1, 0, 0];
+ [ 1, 1]->[ 1, 0, 1];
+
+TRUTH_TABLE // Codierer 2
+([Y2,Y1,Y0]->[G0,G1,G2,G3]);
+ [ 0, 0, 0]->[ 1, 0, 0, 0];
+ [ 0, 1, 0]->[ 0, 1, 0, 0];
+ [ 1, 0, 0]->[ 0, 0, 1, 0];
+ [ 1, 0, 1]->[ 0, 0, 0, 1];
+
+END

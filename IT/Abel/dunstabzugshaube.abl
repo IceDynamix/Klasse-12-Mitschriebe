@@ -1,0 +1,51 @@
+MODULE Dunstabzugshaube
+
+TITLE 'Dunstabzugshaube'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-04-05
+// Aufgabe:	Dunstabzugshaube
+
+DECLARATIONS
+// Eingangssignale
+S,TL,CLK PIN 31,15,89;
+
+// Zwischensignale
+Q0,Q1,Q2 NODE ISTYPE 'Buffer,reg';
+
+// Ausgangssignale
+L1..L4 PIN 61..58 ISTYPE 'Buffer,com';
+
+x = .X.; // don't care
+
+TRUTH_TABLE
+// Schaltwerk
+([ S,TL,Q2,Q1,Q0] :> [Q2,Q1,Q0]);
+
+ [ 0, x, x, x, x] :> [ 0, 0, 0]; // Aus
+ [ 1, x, 0, 0, 0] :> [ 0, 0, 1]; // -> Stufe 1
+
+ [ 1, 0, 0, 0, 1] :> [ 0, 0, 1]; // Stufe 1
+ [ 1, 1, 0, 0, 1] :> [ 0, 1, 0]; // -> Stufe 2
+
+ [ 1, 0, 0, 1, 0] :> [ 0, 1, 0]; // Stufe 2
+ [ 1, 1, 0, 1, 0] :> [ 0, 1, 1]; // -> Stufe 3
+
+ [ 1, 0, 0, 1, 1] :> [ 0, 1, 1]; // Stufe 3
+ [ 1, 1, 0, 1, 1] :> [ 1, 0, 0]; // -> Stufe 4
+
+ [ 1, 0, 1, 0, 0] :> [ 1, 0, 0]; // Stufe 4
+ [ 1, 1, 1, 0, 0] :> [ 0, 0, 1]; // -> Stufe 1
+
+EQUATIONS
+Q2.clk = CLK;
+Q1.clk = CLK;
+Q0.clk = CLK;
+
+L1 = !Q2 & !Q1 &  Q0;
+L2 = !Q2 &  Q1 & !Q0;
+L3 = !Q2 &  Q1 &  Q0;
+L4 =  Q2 & !Q1 & !Q0;
+
+END

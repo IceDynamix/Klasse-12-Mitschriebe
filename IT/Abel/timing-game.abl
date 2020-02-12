@@ -1,0 +1,53 @@
+MODULE Timing_Game
+
+TITLE 'Timing_Game'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-05-03
+// Aufgabe:	Timing-Game
+
+DECLARATIONS
+// Eingangssignale
+START,STOP,Takt PIN 15,17,88;
+
+// Zwischensignale
+Q0,Q1,Q2 NODE ISTYPE 'Buffer,reg';
+CLK,Z NODE ISTYPE 'Buffer,com';
+
+// Ausgangssignale
+L1..L5 PIN 61,60,59,58,56 ISTYPE 'Buffer,com';
+
+TRUTH_TABLE
+// Schaltwerk
+([Q2,Q1,Q0] :> [Q2,Q1,Q0]);
+ [ 0, 0, 0] :> [ 0, 0, 1];
+ [ 0, 0, 1] :> [ 0, 1, 0];
+ [ 0, 1, 0] :> [ 0, 1, 1];
+ [ 0, 1, 1] :> [ 1, 0, 0];
+ [ 1, 0, 0] :> [ 1, 0, 1];
+ [ 1, 0, 1] :> [ 1, 1, 0];
+ [ 1, 1, 0] :> [ 1, 1, 1];
+ [ 1, 1, 1] :> [ 0, 0, 0];
+
+TRUTH_TABLE
+// Schaltwerk
+([Q2,Q1,Q0] -> [L5,L4,L3,L2,L1]);
+ [ 0, 0, 0] -> [ 0, 0, 0, 0, 1];
+ [ 0, 0, 1] -> [ 0, 0, 0, 1, 0];
+ [ 0, 1, 0] -> [ 0, 0, 1, 0, 0];
+ [ 0, 1, 1] -> [ 0, 1, 0, 0, 0];
+ [ 1, 0, 0] -> [ 1, 0, 0, 0, 0];
+ [ 1, 0, 1] -> [ 0, 1, 0, 0, 0];
+ [ 1, 1, 0] -> [ 0, 0, 1, 0, 0];
+ [ 1, 1, 1] -> [ 0, 0, 0, 1, 0];
+
+EQUATIONS
+Z = !STOP & (Z # START);
+CLK = Takt & Z ;
+
+Q2.clk = CLK;
+Q1.clk = CLK;
+Q0.clk = CLK;
+
+END

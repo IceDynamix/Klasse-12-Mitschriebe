@@ -1,0 +1,58 @@
+MODULE Startampel
+
+TITLE 'Startampel'
+//Name:    ~
+//Klasse:  ~
+//Datum:   28.06.2019
+//Aufgabe:Abi-NP 2016/2017 A2 (Startampel-Steuerung)
+
+DECLARATIONS
+//Einganssignale
+Start,Takt PIN 14,89; //linker schwarzer Taster, Jumperleiste 1Hz
+
+//Zwischensignale
+Q0..Q3 NODE ISTYPE'Buffer,reg'; //Schaltwerkausg�nge
+
+//Ausgangssignale
+L0..L4 PIN 53..56,58 ISTYPE'Buffer,com'; //Codirerausg�nge
+
+x=.X.;
+
+EQUATIONS //Funktionsgleichung
+Q0.clk=Takt;
+Q1.clk=Takt;
+Q2.clk=Takt;
+Q3.clk=Takt;
+
+TRUTH_TABLE //Zustandsfolgetabelle Schaltwerk
+([Start,Q3,Q2,Q1,Q0]:>[Q3,Q2,Q1,Q0]);
+ [    1, 0, 0, 0, 0]:>[ 0, 0, 0, 0];
+ [    0, 0, 0, 0, 0]:>[ 0, 0, 0, 1];
+ [    x, 0, 0, 0, 1]:>[ 0, 0, 1, 0];
+ [    x, 0, 0, 1, 0]:>[ 0, 0, 1, 1];
+ [    x, 0, 0, 1, 1]:>[ 0, 1, 0, 0];
+ [    x, 0, 1, 0, 0]:>[ 0, 1, 0, 1];
+ [    x, 0, 1, 0, 1]:>[ 0, 1, 1, 0];
+ [    x, 0, 1, 1, 0]:>[ 0, 1, 1, 1];
+ [    x, 0, 1, 1, 1]:>[ 1, 0, 0, 0];
+ [    1, 1, 0, 0, 0]:>[ 1, 0, 0, 0];
+ [    0, 1, 0, 0, 0]:>[ 1, 0, 0, 1];
+ [    x, 1, 0, 0, 1]:>[ 0, 0, 0, 1];
+
+
+TRUTH_TABLE
+([Q3,Q2,Q1,Q0]->[L4,L3,L2,L1,L0]);
+ [ 0, 0, 0, 0]->[1, 0, 1, 0, 1 ];
+ [ 0, 0, 0, 1]->[0, 1, 0, 1, 0 ];
+ [ 0, 0, 1, 0]->[1, 0, 1, 0, 1 ];
+ [ 0, 0, 1, 1]->[1, 0, 0, 0, 0 ];
+ [ 0, 1, 0, 0]->[1, 1, 0, 0, 0 ];
+ [ 0, 1, 0, 1]->[1, 1, 1, 0, 0 ];
+ [ 0, 1, 1, 0]->[1, 1, 1, 1, 0 ];
+ [ 0, 1, 1, 1]->[1, 1, 1, 1, 1 ];
+ [ 1, 0, 0, 0]->[0, 0, 0, 0, 0 ];
+ [ 1, 0, 0, 1]->[1, 0, 1, 0, 1 ];
+
+
+
+END

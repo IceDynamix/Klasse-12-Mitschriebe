@@ -1,0 +1,33 @@
+MODULE Alarm
+
+TITLE 'ALARM'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2018-12-07
+// Aufgabe:	Alarm
+
+DECLARATIONS
+
+// Eingangssignale
+S1..S3 PIN 29..31;
+
+// Ausgangssignale
+A,W PIN 78,64 ISTYPE'Buffer,com'; // Ausgang kombinatorische Logik com
+
+//TRUTH_TABLE // Wahrheitstabelle
+//([S1,S2,S3]->[A,W]);
+// [0,0,0]->[0,0];
+// [0,0,1]->[0,1];
+// [0,1,0]->[0,1];
+// [0,1,1]->[1,1];
+// [1,0,0]->[0,1];
+// [1,0,1]->[1,1];
+// [1,1,0]->[1,1];
+// [1,1,1]->[1,0];
+
+EQUATIONS  // Funktionsgleichungen
+A = (S1 & (S2 # S3)) # (!S1 & S2 & S3);
+W = (S1 & S2 & S3) # !(S1 & S2 & S3);	// $ = Antivalenz
+
+END

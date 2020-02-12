@@ -1,0 +1,31 @@
+MODULE Ampel
+
+TITLE 'Ampel'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-03-22
+// Aufgabe:	Ampel mit D-FlipFlop
+
+DECLARATIONS
+Qrt,Qge,Qgn PIN 61..59 ISTYPE 'Buffer,reg';
+Clock PIN 88 ;
+
+//TRUTH_TABLE
+//([Qrt,Qge,Qgn] :> [Qrt,Qge,Qgn]);
+// [  0,  0,  0] :> [  1,  0,  0] ;
+// [  1,  0,  0] :> [  1,  1,  0] ;
+// [  1,  1,  0] :> [  0,  0,  1] ;
+// [  0,  0,  1] :> [  0,  1,  0] ;
+// [  0,  1,  0] :> [  1,  0,  0] ;
+
+EQUATIONS
+Qrt.d = (Qge.q !$ Qgn.q) # (!Qrt.q & Qge.q);
+Qge.d = !Qge.q & (Qrt.q # Qgn.q);
+Qgn.d = Qrt.q & Qge.q;
+
+Qrt.clk = Clock;
+Qge.clk = Clock;
+Qgn.clk = Clock;
+
+END

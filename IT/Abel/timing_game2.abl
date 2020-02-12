@@ -1,0 +1,45 @@
+MODULE Timing_Game2
+
+TITLE 'Timing_Game2'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-05-03
+// Aufgabe:	Timing-Game
+
+DECLARATIONS
+// Eingangssignale
+START,STOP,Takt PIN 15,17,88;
+
+// Zwischensignale
+B NODE ISTYPE 'Buffer,reg';
+CLK,Z NODE ISTYPE 'Buffer,com';
+
+// Ausgangssignale
+Q0,Q1,Q2,Q3,Q4 PIN 61,60,59,58,56 ISTYPE 'Buffer,reg';
+
+TRUTH_TABLE
+// Schaltwerk
+([ B,Q4,Q3,Q2,Q1,Q0] :> [ B,Q4,Q3,Q2,Q1,Q0]);
+ [ 0, 0, 0, 0, 0, 0] :> [ 0, 0, 0, 0, 0, 1];
+ [ 0, 0, 0, 0, 0, 1] :> [ 0, 0, 0, 0, 1, 0];
+ [ 0, 0, 0, 0, 1, 0] :> [ 0, 0, 0, 1, 0, 0];
+ [ 0, 0, 0, 1, 0, 0] :> [ 0, 0, 1, 0, 0, 0];
+ [ 0, 0, 1, 0, 0, 0] :> [ 0, 1, 0, 0, 0, 0];
+ [ 0, 1, 0, 0, 0, 0] :> [ 1, 0, 1, 0, 0, 0];
+ [ 1, 0, 1, 0, 0, 0] :> [ 1, 0, 0, 1, 0, 0];
+ [ 1, 0, 0, 1, 0, 0] :> [ 1, 0, 0, 0, 1, 0];
+ [ 1, 0, 0, 0, 1, 0] :> [ 0, 0, 0, 0, 0, 1];
+
+EQUATIONS
+Z = !STOP & (Z # START);
+CLK = Takt & Z ;
+
+B.clk = CLK;
+Q4.clk = CLK;
+Q3.clk = CLK;
+Q2.clk = CLK;
+Q1.clk = CLK;
+Q0.clk = CLK;
+
+END

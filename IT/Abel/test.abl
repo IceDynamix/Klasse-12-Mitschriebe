@@ -1,0 +1,32 @@
+MODULE Test
+
+TITLE 'Test'
+// Name:	~
+// Klasse:	~
+// Datum:	2018-12-07
+// Aufgabe:	Fulladder
+
+DECLARATIONS
+
+// Eingangssignale
+A,B,C PIN 29,30,31;
+
+// Ausgangssignale
+S,CO PIN 86,71 ISTYPE'Buffer,com'; // Ausgang kombinatorische Logik com
+
+//TRUTH_TABLE // Wahrheitstabelle
+//([A,B,C]->[S,CO]);
+// [0,0,0]->[0,0];
+// [0,0,1]->[1,0];
+// [0,1,0]->[1,0];
+// [0,1,1]->[0,1];
+// [1,0,0]->[1,0];
+// [1,0,1]->[0,1];
+// [1,1,0]->[0,1];
+// [1,1,1]->[1,1];
+
+EQUATIONS  // Funktionsgleichungen
+S = (A & B & C) # (A $ B $ C);		// & = AND
+CO = (A & B) # (A & (C # B));	// # = OR
+
+END

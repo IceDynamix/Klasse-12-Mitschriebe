@@ -1,0 +1,21 @@
+MODULE DFlipFlop
+
+TITLE 'DFlipFlop'
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-03-22
+// Aufgabe:	D-FlipFlop
+
+DECLARATIONS
+D,C PIN 15,88;
+S,R NODE ISTYPE'Buffer,com';
+
+Q PIN 61;
+
+EQUATIONS
+Q = !R & (S # Q); // RS-FF
+S =  D & C;
+R = !D & C;
+
+END

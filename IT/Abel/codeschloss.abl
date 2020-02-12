@@ -1,0 +1,67 @@
+MODULE CodeSchloss
+
+TITLE 'CodeSchloss'
+
+
+// Name:	~
+// Klasse:	~
+// Datum:	2019-05-03
+// Aufgabe:	Timing-Game
+
+DECLARATIONS
+// Eingangssignale
+S,TKT,RST PIN 31,88,15;
+
+// Zwischensignale
+CLK NODE ISTYPE 'Buffer,com';
+Q0,Q1 NODE ISTYPE 'Buffer,reg';
+
+// Ausgangssignale
+OK PIN 71 ISTYPE 'Buffer,com';
+L0,L1,L2 PIN 85,86,81 ISTYPE 'Buffer,reg';
+
+x = .X.; // don't care
+
+EQUATIONS
+
+
+Q1.ar = RST; // .ar = asynchroner Reset
+Q0.ar = RST;
+L2.ar = RST;
+L1.ar = RST;
+L0.ar = RST;
+
+Q1.clk = CLK;
+Q0.clk = CLK;
+
+L2.clk = TKT;
+L1.clk = TKT;
+L0.clk = TKT;
+
+CLK = !L2 & TKT;
+OK = Q1 & Q0;
+
+TRUTH_TABLE
+// Schaltwerk
+
+([ S,Q1,Q0] :> [Q1,Q0]);
+
+ [ 0, 0, 0] :> [ 0, 0];
+ [ 1, 0, 0] :> [ 0, 1];
+
+ [ 1, 0, 1] :> [ 0, 1];
+ [ 0, 0, 1] :> [ 1, 0];
+
+ [ 0, 1, 0] :> [ 1, 1];
+ [ 1, 1, 0] :> [ 1, 0];
+
+ [ x, 1, 1] :> [ 1, 1];
+
+TRUTH_TABLE
+([L0,L1,L2] :> [L0,L1,L2]);
+ [ 0, 0, 0] :> [ 1, 0, 0];
+ [ 1, 0, 0] :> [ 1, 1, 0];
+ [ 1, 1, 0] :> [ 1, 1, 1];
+ [ 1, 1, 1] :> [ 1, 1, 1];
+
+END

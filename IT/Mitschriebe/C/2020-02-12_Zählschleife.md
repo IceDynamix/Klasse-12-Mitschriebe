@@ -1,4 +1,4 @@
-## Zählschleife
+# Zählschleife
 
 ![Struktogramm](img/2020-02-12_Struktogramm.png)
 

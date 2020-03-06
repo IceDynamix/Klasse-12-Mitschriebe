@@ -3,8 +3,8 @@
 ## Inhaltsverzeichnis
 
 - [Physik Labor: Elektrizitätslehre](#physik-labor-elektrizit%c3%a4tslehre)
-  - [Inhaltsverzeichnis](#inhaltsverzeichnis)
-  - [Themen Anforderungen](#themen-anforderungen)
+    - [Inhaltsverzeichnis](#inhaltsverzeichnis)
+    - [Themen Anforderungen](#themen-anforderungen)
 
 ## Themen Anforderungen
 

@@ -11,10 +11,10 @@
 
 - Feldlinien beginnen auf positiven Ladungen und enden auf negativen Ladungen
 - Feldlinien sind nie in sich selbst geschlossen
-  - Widerspruch zu erstem Punkt
-  - Verletzt den Energieerhaltungssatz
+    - Widerspruch zu erstem Punkt
+    - Verletzt den Energieerhaltungssatz
 - Feldlinien können sich nicht kreuzen
-  - Im Kreuzungspunkt ist die Praft auf eine Probeladung nicht eindeutig definiert
+    - Im Kreuzungspunkt ist die Praft auf eine Probeladung nicht eindeutig definiert
 
 ## Aufgaben zu Feldlinien
 

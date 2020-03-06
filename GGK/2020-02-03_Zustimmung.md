@@ -46,13 +46,13 @@
 
 - Verbote aller Jugendorganistaionen der Kirchen und anderer Verbände bis 1935
 - 1\. Dezember 1936: "Gesetz über die Hitlerjugend"
-  - Mitgliedschaft in den nationalsozialistischen Verbänden HJ (Hitlerjugend) oder BDM (Bund deutscher Mädchen) wird Pflicht
+    - Mitgliedschaft in den nationalsozialistischen Verbänden HJ (Hitlerjugend) oder BDM (Bund deutscher Mädchen) wird Pflicht
 - Führerprinzip: "Jugend wird durch Jugend geführt." (Baldur von Schirach, HJ-Führer)
 - Die Ziele der kindlichen Beeinflussung waren:
-  - Erziehung zur "Volksgemeinschaft"
-  - Aufopferungsbereitschaft
-  - Militärische Gesinnung
-  - Vorrang von körperlicher Ertüchtiger gegenüber geistiger Bildung
+    - Erziehung zur "Volksgemeinschaft"
+    - Aufopferungsbereitschaft
+    - Militärische Gesinnung
+    - Vorrang von körperlicher Ertüchtiger gegenüber geistiger Bildung
 
 ## Adolf Hitler in "Mein Kampf" über Propaganda
 

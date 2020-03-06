@@ -1,11 +1,11 @@
 # Die Fassungen des kategorischen Imperativs
 
 - [Die Fassungen des kategorischen Imperativs](#die-fassungen-des-kategorischen-imperativs)
-  - [Material](#material)
+    - [Material](#material)
     - [Die Grundfassung](#die-grundfassung)
     - [Variationen](#variationen)
     - [Die Menschheits-Zweck-Formel](#die-menschheits-zweck-formel)
-  - [Fragen](#fragen)
+    - [Fragen](#fragen)
     - [Aus welchen drei Teilen besteht der kategorische Imperativ?](#aus-welchen-drei-teilen-besteht-der-kategorische-imperativ)
     - [Warum heißt der Imperativ nicht einfach: "Handle nur so, als ob dein Handeln allgemeines Gesetz werden könnte."?](#warum-hei%c3%9ft-der-imperativ-nicht-einfach-%22handle-nur-so-als-ob-dein-handeln-allgemeines-gesetz-werden-k%c3%b6nnte%22)
     - [Warum heißt der Imperativ nicht einfach: "Handle immer so, dass dein Handeln sich an Maximen orientiert."?](#warum-hei%c3%9ft-der-imperativ-nicht-einfach-%22handle-immer-so-dass-dein-handeln-sich-an-maximen-orientiert%22)

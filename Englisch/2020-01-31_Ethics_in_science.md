@@ -1,22 +1,22 @@
 # Ethics in Science
 
 - [Ethics in Science](#ethics-in-science)
-  - [Rule Utilitarism](#rule-utilitarism)
-  - [Act Utilitarism](#act-utilitarism)
-  - [Deontology](#deontology)
+    - [Rule Utilitarism](#rule-utilitarism)
+    - [Act Utilitarism](#act-utilitarism)
+    - [Deontology](#deontology)
     - [Definition](#definition)
     - [Application](#application)
     - [Criticism](#criticism)
-  - [Kantian Ethics](#kantian-ethics)
-  - [Examples](#examples)
-  - [Clearview AI](#clearview-ai)
+    - [Kantian Ethics](#kantian-ethics)
+    - [Examples](#examples)
+    - [Clearview AI](#clearview-ai)
     - [Criticism](#criticism-1)
-  - [Psychology](#psychology)
+    - [Psychology](#psychology)
     - [Life with(out) a mother](#life-without-a-mother)
-  - [The future of TNT](#the-future-of-tnt)
+    - [The future of TNT](#the-future-of-tnt)
     - [Application of Kantian Ethics](#application-of-kantian-ethics)
     - [Application of Utilitarism](#application-of-utilitarism)
-  - [The form of "Drilling"](#the-form-of-%22drilling%22)
+    - [The form of "Drilling"](#the-form-of-%22drilling%22)
     - [Application of Kantian Ethics](#application-of-kantian-ethics-1)
     - [Application of Utilitarism](#application-of-utilitarism-1)
 
@@ -43,7 +43,7 @@ Rule Utilitarism weighs the action on the appropriation to the established rules
 ### Criticism
 
 - no real answers to most ethical questions
-  - if someone wants to live in a brutal violent world it could be deontologically right
+    - if someone wants to live in a brutal violent world it could be deontologically right
 - Kant said, that everybody is born with an organ to distinguish between good and bad, which is not the case
 
 ## Kantian Ethics
@@ -55,9 +55,9 @@ Rule Utilitarism weighs the action on the appropriation to the established rules
 ## Examples
 
 - You find a wallet full of cash
-  - Return the wallet with the cash inside, as applying the act of not returning the wallet universally would result in loss of possession for everyone, which isn't good
+    - Return the wallet with the cash inside, as applying the act of not returning the wallet universally would result in loss of possession for everyone, which isn't good
 - Someone hits you
-  - ???
+    - ???
 
 ## Clearview AI
 
@@ -78,9 +78,9 @@ Rule Utilitarism weighs the action on the appropriation to the established rules
 - Experiment conducted with 20 babies, 10 with and 10 without a mother
 - Results show that the 10 babies without a mother died after 3.5 months, while the other 10 with a mother lived
 - Reasons are expected to be:
-  - Life with mother is important
-  - Social connection
-  - Motherly love
+    - Life with mother is important
+    - Social connection
+    - Motherly love
 
 *Was the experiment morally reasoned?*
 

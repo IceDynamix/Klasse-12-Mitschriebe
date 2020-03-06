@@ -8,8 +8,8 @@
 - Gutes: Liebe zu Gretchen
 - Schlechtes: Lust und Sehnsucht nach Gretchen (Liebeskummer)
 - Pakt: Überheblich und ist sich seiner Sache sicher
-  - Wird durch Gretchen fast zum Stillstand gebracht
-  - Gretchen wird Mephisto gefährlich
+    - Wird durch Gretchen fast zum Stillstand gebracht
+    - Gretchen wird Mephisto gefährlich
 - Alt und verbittert, Selbstsucht
 
 ## Mephisto
@@ -27,5 +27,5 @@
 - Wird durch die Manipulation von Mephisto vom Weg abgeführt, kommt aber später wieder zurück
 - Schafft es Faust zu emotionalisieren
 - Verführbar, kann Fehler
-  - Genau für diese Personen ist der Glauben da
-  - Es geht darum, dass sie versteht/einsieht, dass sie etwas falsch gemacht hat
+    - Genau für diese Personen ist der Glauben da
+    - Es geht darum, dass sie versteht/einsieht, dass sie etwas falsch gemacht hat

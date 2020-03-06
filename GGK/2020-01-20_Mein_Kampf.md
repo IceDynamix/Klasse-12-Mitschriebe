@@ -10,7 +10,7 @@
 - Probleme können nur durch die überlegene Rasse gelöst werden
 - Gottgegebene Rassen
 - Luthers Rassentheorie
-  - Darwinismus
+    - Darwinismus
 - Hitler-Jugend
 
 ### Lebensraum-Ideologie

@@ -166,7 +166,7 @@ sfr  VDM0CN       =  0xFF;             // VDD Monitor Control
 // Bit Definitions
 //-----------------------------------------------------------------------------
 
-//ï¿½C-Board C8051F340 Komponenten
+//µC-Board C8051F340 Komponenten
 sbit K1      = 0xA0; //Taster K1 am Port 2.0
 sbit K2      = 0xA1; //Taster K2 am Port 2.1
 sbit D1      = 0xA2; //LED D2 am Port 2.2

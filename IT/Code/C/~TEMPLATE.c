@@ -1,5 +1,5 @@
 /*
- *    Name: ~
+ *    Name: IceDynamix
  *   Datum:
  * Aufgabe:
  */

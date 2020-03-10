@@ -1,8 +1,25 @@
 # Tangentengleichung
 
-## Wenn $P_0$ auf $f$
+## Wenn der Punkt auf der Funktion liegt:
 
-### Aufgabenstellung
+- $y_t = f'(x_0)(x-x_0)+f(x_0)$
+- Für die Normalengleichung einfach:
+- $y_t = \frac{-1}{f'(x_0)} (x-x_0)+f(x_0)$
+- Für $x_0$ einfach den gegeben x-Wert des Punktes einsetzen
+- Formel vereinfachen
+
+## Wenn der Punkt nicht auf der Funktion liegt:
+
+- $y = f'(x_0)(x-x_0)+f(x_0)$
+- In der Formel für $x$ (nicht $x_0$) die x-Koordinate des gegebenen Punktes und für y (auf der linken Seite der Gleichung) die y-Koordinate des Punktes einsetzen
+- Auf Nullstellen auflösen
+- Wenn der Funktionsgrad = 2, dann pq oder abc-Formel
+- Wenn der Funktionsgrad >= 3, dann Nullstelle erraten und Horni bis man auf Funktionsgrad 2 kommt, dann pq bzw. abc
+    - *Prüfungen sind aber nicht sadistisch genug um uns die Nullstellen von Funktionen mit Grad 4 oder höher berechnen zu lassen also wird er wahrscheinlich nur Grad 3 nehmen wie in Aufgabe 4*
+- Die Nullstellen jeweils für x_0 in $y = f'(x_0)(x-x_0)+f(x_0)$ einsetzen
+- Für jede Nullstelle gibts dann eine Tangentengleichung
+
+## Beispiel Aufgabenstellung
 
 > Berechne eine Tangente von $f(x) = (x^2 - 2)(x^2 + 3)$ im Punkt $P_0(-1 | -4)$.
 
@@ -49,21 +66,3 @@ $$
       &= -6x - 10 \\
 \end{aligned}
 $$
-
-## Wenn $P_0$ **NICHT** auf $f$
-
-### Aufgabenstellung
-
-> Berechne eine Tangente von $f(x) = (x^2 - 2)(x^2 + 3)$ im Punkt $P_0(-1 | -5)$.
-
-### Schauen, ob der Punkt auf der Funktion liegt
-
-### Ableitung berechnen
-
-### Tangengleichung einsetzen
-
-#### $x$ und $y$ aus $P_0$ einsetzen
-
-#### Auf $u$ auflösen
-
-#### $u$ in die Tangentengleichung einsetzen

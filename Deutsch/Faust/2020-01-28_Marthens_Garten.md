@@ -10,7 +10,7 @@
 
 ## Aufgabe 2
 
-> *"Wie hast du's mit der Religion?* - In der Szene wird erstmals die *Gretchenfrage* gestellt. Darunter versteht man heutzutage eine Frage, die den Befragten dazu bringen soll, seine wahren Ansichten zu einem zentrealen Aspekt einer Thematik offenlegen. Zeige, inwieweit dieses Begriffsverständnis in diesem Text angelegt ist.
+> *"Wie hast du es mit der Religion?* - In der Szene wird erstmals die *Gretchenfrage* gestellt. Darunter versteht man heutzutage eine Frage, die den Befragten dazu bringen soll, seine wahren Ansichten zu einem zentrealen Aspekt einer Thematik offenlegen. Zeige, inwieweit dieses Begriffsverständnis in diesem Text angelegt ist.
 
 ## Aufgabe 3
 

@@ -2,7 +2,7 @@
 
 ## Definition
 
-In einem elektrischen Feld befinddet sich eine Probeladung $q$. Als Maß für die elektrische Feldstärke (elektrisches Feld) definiert man
+In einem elektrischen Feld befindet sich eine Probeladung $q$. Als Maß für die elektrische Feldstärke (elektrisches Feld) definiert man
 
 $$
 \text{elektrische Feldstärke} = \frac{\text{Kraft des Feldes auf eine Probeladung}}{\text{Probeladung}}

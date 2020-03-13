@@ -1,4 +1,4 @@
-# Das elektrishe Feld im Plattenkondensator
+# Das elektrische Feld im Plattenkondensator
 
 ## Versuche mit einer geladenen Rasierklinge
 

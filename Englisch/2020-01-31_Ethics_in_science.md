@@ -4,21 +4,21 @@
     - [Rule Utilitarism](#rule-utilitarism)
     - [Act Utilitarism](#act-utilitarism)
     - [Deontology](#deontology)
-    - [Definition](#definition)
-    - [Application](#application)
-    - [Criticism](#criticism)
+        - [Definition](#definition)
+        - [Application](#application)
+        - [Criticism](#criticism)
     - [Kantian Ethics](#kantian-ethics)
     - [Examples](#examples)
     - [Clearview AI](#clearview-ai)
-    - [Criticism](#criticism-1)
+        - [Criticism](#criticism-1)
     - [Psychology](#psychology)
-    - [Life with(out) a mother](#life-without-a-mother)
+        - [Life with(out) a mother](#life-without-a-mother)
     - [The future of TNT](#the-future-of-tnt)
-    - [Application of Kantian Ethics](#application-of-kantian-ethics)
-    - [Application of Utilitarism](#application-of-utilitarism)
-    - [The form of "Drilling"](#the-form-of-%22drilling%22)
-    - [Application of Kantian Ethics](#application-of-kantian-ethics-1)
-    - [Application of Utilitarism](#application-of-utilitarism-1)
+        - [Application of Kantian Ethics](#application-of-kantian-ethics)
+        - [Application of Utilitarism](#application-of-utilitarism)
+    - [The form of "Drilling"](#the-form-of-drilling)
+        - [Application of Kantian Ethics](#application-of-kantian-ethics-1)
+        - [Application of Utilitarism](#application-of-utilitarism-1)
 
 ## Rule Utilitarism
 
@@ -43,7 +43,7 @@ Rule Utilitarism weighs the action on the appropriation to the established rules
 ### Criticism
 
 - no real answers to most ethical questions
-    - if someone wants to live in a brutal violent world it could be deontologically right
+    - if someone wants to live in a brutal violent world it could be deontologieally right
 - Kant said, that everybody is born with an organ to distinguish between good and bad, which is not the case
 
 ## Kantian Ethics

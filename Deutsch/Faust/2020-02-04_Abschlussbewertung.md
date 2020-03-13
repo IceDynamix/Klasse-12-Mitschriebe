@@ -4,7 +4,7 @@
 
 - Ist die Spielfigur von Gott und Mephisto zur Prüfung der Schöpfung
 - Er möchte sich entgrenzen
-- Er möchte Gutes und schlchtes erfahren
+- Er möchte Gutes und Schlechtes erfahren
 - Gutes: Liebe zu Gretchen
 - Schlechtes: Lust und Sehnsucht nach Gretchen (Liebeskummer)
 - Pakt: Überheblich und ist sich seiner Sache sicher

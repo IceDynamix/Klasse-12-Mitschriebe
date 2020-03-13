@@ -2,7 +2,7 @@
 
 ## Wie erlangt die NSDAP Unterstützung in verschiedenen Bevölkerungsschichten?
 
-- Versprechen wirtschaflichen Aufschwungs durch staatliche Investitionen
+- Versprechen wirtschaftlichen Aufschwungs durch staatliche Investitionen
 - Ausbau sozialstaatlicher Leistungen, Abschaffung von Privilegien und Aufsteigsmöglichkeiten in einer Leistungsgesellschaft
 - Garant von "Ruhe und Ordnung": Herstellung gesellschaftlicher Stabilität und Geschlossenheit gegen Gewerkschaften und SPD/KPD
 - Aufwertung des Einzelnen im Kollektiv der Volksgemeinschaft, die als "Herrenrasse" zur Weltherrschaft bestimmt sei
@@ -39,12 +39,12 @@
 - Geschichte: deutsche Geschichte und "nordische Rasse"
 - Biologieunterricht: neue Themen "Rassenkunde" und "Vererbungslehre"
 - Zahl der Sportstunden wird erhöht
-- Hakenkrezue, Fahnen und Hitlerporträts, bestimmte Rituale, Fahnenapelle, Hitlergruß
+- Hakenkreuze, Fahnen und Hitlerporträts, bestimmte Rituale, Fahnenapelle, Hitlergruß
 - Schulen waren aber nicht die wichtigsten Einrichtungen für die Beeinflussung, sondern NS-Jugendorganisationen
 
 ## Gleichschaltung der Jugendorganisationen bis 1936
 
-- Verbote aller Jugendorganistaionen der Kirchen und anderer Verbände bis 1935
+- Verbote aller Jugendorganisationen der Kirchen und anderer Verbände bis 1935
 - 1\. Dezember 1936: "Gesetz über die Hitlerjugend"
     - Mitgliedschaft in den nationalsozialistischen Verbänden HJ (Hitlerjugend) oder BDM (Bund deutscher Mädchen) wird Pflicht
 - Führerprinzip: "Jugend wird durch Jugend geführt." (Baldur von Schirach, HJ-Führer)
@@ -56,9 +56,9 @@
 
 ## Adolf Hitler in "Mein Kampf" über Propaganda
 
-> Jede Propaganda hat volkstümlich zu sein und ihr geistiges Niveau einzustellen nach der Aufnahmefähigkeit des Beschränktesten unter denen, an die sie sich zu richten gedenkt. Damit wird ihre rein geistige Höhe um so tiefer zu stellen sein, je größer die zu erfassende Masse der Menschen sein soll. Handelt es sich aber, wie bei der Propaganda für die Durchhaltung eines Krieges, darum, ein ganzes Volk in ihren Wirkungsbereich zu ziehen, so kann die Vorsicht bei der Vermeidung zu hoher geistiger Vorraussetungen gar nicht groß genug sein.
+> Jede Propaganda hat volkstümlich zu sein und ihr geistiges Niveau einzustellen nach der Aufnahmefähigkeit des Beschränktesten unter denen, an die sie sich zu richten gedenkt. Damit wird ihre rein geistige Höhe um so tiefer zu stellen sein, je größer die zu erfassende Masse der Menschen sein soll. Handelt es sich aber, wie bei der Propaganda für die Durchhaltung eines Krieges, darum, ein ganzes Volk in ihren Wirkungsbereich zu ziehen, so kann die Vorsicht bei der Vermeidung zu hoher geistiger Voraussetzungen gar nicht groß genug sein.
 >
-> Je beschiedener dann ihr wissenschaftlicher Ballast ist, und je mehr sie ausschließlich auf das Fühlen dder Masse Rücksicht nimmt, umso durchschlagender der Erfolg. [...] Gerade darin liegt die Kunst der Propaganda, dass sie, die gefühlsmäßige Vorstellungswelt der großen Masse begreifend, in psychologisch richtiger Form den Weg zur Aufmerksamkeit und weiter zum Herzen der breiten Masse findet.
+> Je beschiedener dann ihr wissenschaftlicher Ballast ist, und je mehr sie ausschließlich auf das Fühlen der Masse Rücksicht nimmt, umso durchschlagender der Erfolg. [...] Gerade darin liegt die Kunst der Propaganda, dass sie, die gefühlsmäßige Vorstellungswelt der großen Masse begreifend, in psychologisch richtiger Form den Weg zur Aufmerksamkeit und weiter zum Herzen der breiten Masse findet.
 >
 > Die Aufnahmemöglichkeit der großen Masse ist nur sehr beschränkt, das Verständnis klein, dafür jedoch die Vergesslichkeit groß. Aus diesen Tatsachen heraus hat sich jede wirkungsvolle Propaganda auf nur sehr wenige Punkte zu beschränken und diese Worte das Gewollte sich vorzustellen vermag. Sowie man diesen Grundsatz opfert und vielseitig werden will, wird man die Wirkung zum Zerflattern bringen, da die Menge den gebotenen Stoff weder zu verdauen noch zu behalten vermag. Damit aber wird das Ergebnis wieder abgeschwächt und endlich aufgehoben. [...]
 >

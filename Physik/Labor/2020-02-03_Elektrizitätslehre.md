@@ -2,7 +2,7 @@
 
 ## Inhaltsverzeichnis
 
-- [Physik Labor: Elektrizitätslehre](#physik-labor-elektrizit%c3%a4tslehre)
+- [Physik Labor: Elektrizitätslehre](#physik-labor-elektrizitätslehre)
     - [Inhaltsverzeichnis](#inhaltsverzeichnis)
     - [Themen Anforderungen](#themen-anforderungen)
 
@@ -27,7 +27,7 @@
 
 ### Messergebnisse
 
-| Spalte1 | Splate2 | Spalte3 |
+| Spalte1 | Spalte2 | Spalte3 |
 | ------- | ------- | ------- |
 |         |         |         |
 
@@ -41,7 +41,7 @@
 
 ### Messergebnisse
 
-| Spalte1 | Splate2 | Spalte3 |
+| Spalte1 | Spalte2 | Spalte3 |
 | ------- | ------- | ------- |
 |         |         |         |
 
@@ -55,7 +55,7 @@
 
 ### Messergebnisse
 
-| Spalte1 | Splate2 | Spalte3 |
+| Spalte1 | Spalte2 | Spalte3 |
 | ------- | ------- | ------- |
 |         |         |         |
 

@@ -75,5 +75,34 @@
         "single-title": false, // Man sollte gleiche Überschriften mehrmals verwenden dürfen
         "no-blanks-blockquote": false
     },
-    "C_Cpp.errorSquiggles": "Disabled" // Die IT Workspaces sind eigentlich dafür ausgelegt, damit man direkt mit VSCode die Ordner öffnen kann und die Einstellungen von der dazugehörigen `/.vscode/settings.json` übernommen werden. Will man aber nur einen kurzen Blick in eine C Datei schauen, bekommt man vom Intellisense direkt Fehler, weil unser Stil etwas anders ist als normaler C Code. Daher verstecke ich diese Meldungen.
+    "C_Cpp.errorSquiggles": "Disabled", // Die IT Workspaces sind eigentlich dafür ausgelegt, damit man direkt mit VSCode die Ordner öffnen kann und die Einstellungen von der dazugehörigen `/.vscode/settings.json` übernommen werden. Will man aber nur einen kurzen Blick in eine C Datei schauen, bekommt man vom Intellisense direkt Fehler, weil unser Stil etwas anders ist als normaler C Code. Daher verstecke ich diese Meldungen.
+    "cSpell.language": "en,de",
+    "cSpell.ignoreRegExpList": [
+        "\\$.*?\\$", // Inlinestyle Latex in Markdown
+        "\\$\\$[\\s\\S]+?\\$\\$", // Displaystyle Latex in Markdown
+        "```[\\s\\S]+?```" // Codefences in Markdown
+    ],
+    "cSpell.allowCompoundWords": true,
+    "cSpell.words": [
+        "CRISPR",
+        "Deutungshypothese",
+        "Dipolare",
+        "Elektroskop",
+        "Elektroskops",
+        "Ertüchtiger",
+        "Fahnenapelle",
+        "GMOs",
+        "Horni",
+        "Melita",
+        "NSDAP",
+        "Phet",
+        "TALENs",
+        "Transgenics",
+        "Unternehmensfinazierung",
+        "ZFNs",
+        "Zerdenken",
+        "ungleichnamige",
+        "ungleichnamigen",
+        "Äquipotentiallinien"
+    ]
 }

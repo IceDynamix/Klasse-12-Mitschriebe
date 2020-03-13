@@ -2,7 +2,7 @@
 
 ## Situation 1
 
-> An den Unternehen "Sport&Mode" sind Nadine Neu mit einem Kapital von 10.000€ und Harald Hilfsbereit 20.000€ beteiligt. Der Gesamtgewinn beträgt 6.000€. Der Gesamtverlust
+> An den Unternehmen "Sport&Mode" sind Nadine Neu mit einem Kapital von 10.000€ und Harald Hilfsbereit 20.000€ beteiligt. Der Gesamtgewinn beträgt 6.000€. Der Gesamtverlust
 
 ## Gewinnverteilung
 

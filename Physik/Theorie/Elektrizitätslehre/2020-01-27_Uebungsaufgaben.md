@@ -2,7 +2,7 @@
 
 ## Katzenfell
 
-> Ein Hartgimmtstab wird mit einem Katzenfell intensiv gerieben und erhält dabei eine Ladung von $-0.8µC$. Wie viele Elektronen gehen vom Tuch auf den Stab über?
+> Ein Hartgummistab wird mit einem Katzenfell intensiv gerieben und erhält dabei eine Ladung von $-0.8µC$. Wie viele Elektronen gehen vom Tuch auf den Stab über?
 
 $Q = 0.8 \cdot 10^{-6}$
 
@@ -12,8 +12,8 @@ $n_e = \frac{Q}{Q_e} = 4.99 \cdot 10^{12}$
 
 ## Elektrostatische Wippe
 
-> Im Barock unterhielt sich die feinere Gesellschaft oft durch elektrostatische Spielereien. Ein beliebtes Spielzeug wearen die "lustigen Knaben".
-> Es handelt sich um eine Wippe aus Isoliermaterial. An den Enden der Wippe war auf der sUnterseite jeweils Staniol (Zinnfolie) angeklebt. Die Wippe berührte abwechselnd die beiden Pole (+) und (-), an die eine Hochspannungsquelle angeschlossen war.
+> Im Barock unterhielt sich die feinere Gesellschaft oft durch elektrostatische Spielereien. Ein beliebtes Spielzeug waren die "lustigen Knaben".
+> Es handelt sich um eine Wippe aus Isoliermaterial. An den Enden der Wippe war auf der sUnterseite jeweils Stanniol (Zinnfolie) angeklebt. Die Wippe berührte abwechselnd die beiden Pole (+) und (-), an die eine Hochspannungsquelle angeschlossen war.
 > Erkläre die Funktionsweise dieses Spielzeugs.
 
 Immer wenn die Wippe ein Pol berührt, gibt es einen Ladungsausgleich und die Wippe wird dann von der anderen Seite angezogen.
@@ -39,4 +39,4 @@ Immer wenn die Wippe ein Pol berührt, gibt es einen Ladungsausgleich und die Wi
 > Eine metallische, positiv geladene Christbaumkugel hängt an deinem langen isolierenden Faden. Nähert man der Kugel eine geerdete Metallplatte, so wird die Kugel von der Platte angezogen.
 >
 > 1. Erkläre, wie es zu dieser Anziehung kommt.
-> 2. Die Kugel wird aufgrund der Anziehung um 30° aus der Ruhelage ausgelenkt. Ein empfindlicher Kraftmesser zeigt an, dass im Faden die Kraft $F_F = 20mN$ wirkt. Zeichne einen saubren Kräfteplan und bestimme mit dessen Hilfe den Betrag $F_E$ der horizontal wirkenden elektrischen Kraft, welche von der Platte auf die Kugel ausgeübt wird.
+> 2. Die Kugel wird aufgrund der Anziehung um 30° aus der Ruhelage ausgelenkt. Ein empfindlicher Kraftmesser zeigt an, dass im Faden die Kraft $F_F = 20mN$ wirkt. Zeichne einen sauberen Kräfteplan und bestimme mit dessen Hilfe den Betrag $F_E$ der horizontal wirkenden elektrischen Kraft, welche von der Platte auf die Kugel ausgeübt wird.

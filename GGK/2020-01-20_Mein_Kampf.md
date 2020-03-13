@@ -5,7 +5,7 @@
 ### Völkische Geschichtstheorie
 
 - Rasse als Mittel zum Zweck
-- Groß, blond, blauaügiger Arier ist das Ideal
+- Groß, blond, blauäugiger Arier ist das Ideal
 - Ausgrenzung von Nicht-Ariern
 - Probleme können nur durch die überlegene Rasse gelöst werden
 - Gottgegebene Rassen

@@ -20,7 +20,7 @@
 
 ### Aufgabe 2: Was stimmt?
 
-1. Das Feld zweier entgegensetzt geladener Kugeln wird durch die gezeichneten Feldlinien verduetlicht. Im Feld befindet sich ein Proton (positive Ladung)
+1. Das Feld zweier entgegensetzt geladener Kugeln wird durch die gezeichneten Feldlinien verdeutlicht. Im Feld befindet sich ein Proton (positive Ladung)
     - [ ] Das Proton bewegt sich immer längs einer Feldlinie
     - [ ] Lässt man das Proton los, so bewegt es sich längs der Feldlinien
     - [x] **Lässt man das Proton los, so bewegt es sich anfangs längs der Feldlinien**

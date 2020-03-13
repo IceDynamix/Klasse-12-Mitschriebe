@@ -22,7 +22,7 @@ Hypothesen:
 
 ## Quellen
 
-- Quelle 1: Auszüze aus den Jugenderinnerungen von Melita Maschmann
+- Quelle 1: Auszüge aus den Jugenderinnerungen von Melita Maschmann
     - Faszination der Volksgemeinschaft und es wurde als "Sinn des Lebens" angesehen.
     - Raus aus dem kindlichen Leben
     - Intensive Glücksgefühle

@@ -2,15 +2,15 @@
 
 - [Die Fassungen des kategorischen Imperativs](#die-fassungen-des-kategorischen-imperativs)
     - [Material](#material)
-    - [Die Grundfassung](#die-grundfassung)
-    - [Variationen](#variationen)
-    - [Die Menschheits-Zweck-Formel](#die-menschheits-zweck-formel)
+        - [Die Grundfassung](#die-grundfassung)
+        - [Variationen](#variationen)
+        - [Die Menschheits-Zweck-Formel](#die-menschheits-zweck-formel)
     - [Fragen](#fragen)
-    - [Aus welchen drei Teilen besteht der kategorische Imperativ?](#aus-welchen-drei-teilen-besteht-der-kategorische-imperativ)
-    - [Warum heißt der Imperativ nicht einfach: "Handle nur so, als ob dein Handeln allgemeines Gesetz werden könnte."?](#warum-hei%c3%9ft-der-imperativ-nicht-einfach-%22handle-nur-so-als-ob-dein-handeln-allgemeines-gesetz-werden-k%c3%b6nnte%22)
-    - [Warum heißt der Imperativ nicht einfach: "Handle immer so, dass dein Handeln sich an Maximen orientiert."?](#warum-hei%c3%9ft-der-imperativ-nicht-einfach-%22handle-immer-so-dass-dein-handeln-sich-an-maximen-orientiert%22)
-    - [Kann man die goldene Regel mit dem Imperativ gleichssetzen?](#kann-man-die-goldene-regel-mit-dem-imperativ-gleichssetzen)
-    - [Versuche, den kategorischen Imperativ in einer modernen Fassung zu formulieren.](#versuche-den-kategorischen-imperativ-in-einer-modernen-fassung-zu-formulieren)
+        - [Aus welchen drei Teilen besteht der kategorische Imperativ?](#aus-welchen-drei-teilen-besteht-der-kategorische-imperativ)
+        - [Warum heißt der Imperativ nicht einfach: "Handle nur so, als ob dein Handeln allgemeines Gesetz werden könnte."?](#warum-heißt-der-imperativ-nicht-einfach-handle-nur-so-als-ob-dein-handeln-allgemeines-gesetz-werden-könnte)
+        - [Warum heißt der Imperativ nicht einfach: "Handle immer so, dass dein Handeln sich an Maximen orientiert."?](#warum-heißt-der-imperativ-nicht-einfach-handle-immer-so-dass-dein-handeln-sich-an-maximen-orientiert)
+        - [Kann man die goldene Regel mit dem Imperativ gleichsetzen?](#kann-man-die-goldene-regel-mit-dem-imperativ-gleichsetzen)
+        - [Versuche, den kategorischen Imperativ in einer modernen Fassung zu formulieren.](#versuche-den-kategorischen-imperativ-in-einer-modernen-fassung-zu-formulieren)
 
 ## Material
 
@@ -26,7 +26,7 @@
 
 ### Die Menschheits-Zweck-Formel
 
-> Handle so, dass du die Menschheit sowohl in deiner Person als in der Person eines jeden anderen zugleich als Zweck, noemals bloß als Mittel brauchst. *(GMS, 429)*
+> Handle so, dass du die Menschheit sowohl in deiner Person als in der Person eines jeden anderen zugleich als Zweck, niemals bloß als Mittel brauchst. *(GMS, 429)*
 
 ## Fragen
 
@@ -48,10 +48,10 @@ Hier steht die Handlung und nicht die Maxime im Fokus. Ideale und Intentionen we
 
 Welchen Maximen? Es ist keine Beschränkung gegeben. Ich kann der Menschheit kontraproduktiv handeln und es wäre nach dem Imperativ immer noch korrekt.
 
-### Kann man die goldene Regel mit dem Imperativ gleichssetzen?
+### Kann man die goldene Regel mit dem Imperativ gleichsetzen?
 
 Nein, da die goldene Regel nur auf dem Bezug des Eigenen liegt. Es zwingt den anderen Menschen den eigenen Willen auf.
 
 ### Versuche, den kategorischen Imperativ in einer modernen Fassung zu formulieren.
 
-"Sofern du deine Handlungen nicht auf die gesamte Menschheit projezieren kannst, ist diese nicht vertretbar."
+"Sofern du deine Handlungen nicht auf die gesamte Menschheit projizieren kannst, ist diese nicht vertretbar."

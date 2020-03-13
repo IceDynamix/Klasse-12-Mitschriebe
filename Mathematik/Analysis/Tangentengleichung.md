@@ -17,7 +17,7 @@
 - Wenn der Funktionsgrad >= 3, dann Nullstelle erraten und Horni bis man auf Funktionsgrad 2 kommt, dann pq bzw. abc
     - *Prüfungen sind aber nicht sadistisch genug um uns die Nullstellen von Funktionen mit Grad 4 oder höher berechnen zu lassen also wird er wahrscheinlich nur Grad 3 nehmen wie in Aufgabe 4*
 - Die Nullstellen jeweils für x_0 in $y = f'(x_0)(x-x_0)+f(x_0)$ einsetzen
-- Für jede Nullstelle gibts dann eine Tangentengleichung
+- Für jede Nullstelle gibt es dann eine Tangentengleichung
 
 ## Beispiel Aufgabenstellung
 

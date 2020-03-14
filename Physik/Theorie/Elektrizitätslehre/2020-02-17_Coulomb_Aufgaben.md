@@ -14,8 +14,7 @@
 
 ## Aufgabe 4
 
-> Zwei Ladungen $Q_2 = 3 \cdot 10^{-9} As$ und $Q_2 = -2 \cdot 10^{-9} As$ befinden sich in $2m$ Entfernung. Berechne den Betrag der kraft auf $Q_1$
-und $Q_2$.
+> Zwei Ladungen $Q_1 = 3 \cdot 10^{-9} As$ und $Q_2 = -2 \cdot 10^{-9} As$ befinden sich in $2m$ Entfernung. Berechne den Betrag der Kraft auf $Q_1$ und $Q_2$.
 
 ## Aufgabe 5
 

@@ -58,7 +58,15 @@ $$
 
 ### Aufgabe 1
 
-ii)
+> Zwei Ladungen $Q_1 = 3 \cdot 10^{-9} As$ und $Q_2 = -2 \cdot 10^{-9} As$ befinden sich in $2m$ Entfernung.
+>
+> Berechne das elektrische Feld in der Mitte der beiden Ladungen. Gehe wie folgt vor.
+>
+> > Lege fest: $Q_1$ sitzt links, $Q_2$ rechts, mache eine Skizze, setze gedanklich eine positive Probeladung zwischen die Ladungen, in welche Richtung wirken die Kräfte $Q_1$ und $Q_2$ uf sie?
+
+<!-- missing -->
+
+> > Berechne das Feld von $Q_1$ und $Q_2$ im Abstand von $1m$ Entfernung.
 
 $$
 \begin{aligned}
@@ -67,8 +75,20 @@ $$
 \end{aligned}
 $$
 
-iv)
+> > Überlege dir die Richtung beider Felder.
+
+<!-- missing -->
+
+> > Hat man viele Ladungen, so besteht um jede Ladung das von ihr erzeugte Feld. Man erhält das Gesamtfeld, wenn indem man alle diese Einzelfelder addiert. Dabei auf die Richtung achten!
 
 $$
 E_{Q_1} + E_{Q_2} = 8.99 \frac{N}{C}
 $$
+
+> > Gebe die Richtung des Feldes an.
+
+<!-- missing -->
+
+### Aufgabe 2
+
+<!-- missing -->

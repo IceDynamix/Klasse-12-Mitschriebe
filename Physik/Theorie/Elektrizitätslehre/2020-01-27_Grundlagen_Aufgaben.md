@@ -34,9 +34,13 @@ Immer wenn die Wippe ein Pol berührt, gibt es einen Ladungsausgleich und die Wi
 
 > Einer neutralen (ungeladene) Metallkugel, die an deinem langen Isolierfaden aufgehängt ist, wird eine positiv geladene Metallplatte gegenübergestellt. Erfährt die Kugel eine Kraftwirkung oder nicht? Begründe deine Antwort (evtl. mit Skizze).
 
+<!-- missing -->
+
 ## Kräfte an der Christbaumkugel
 
 > Eine metallische, positiv geladene Christbaumkugel hängt an deinem langen isolierenden Faden. Nähert man der Kugel eine geerdete Metallplatte, so wird die Kugel von der Platte angezogen.
 >
 > 1. Erkläre, wie es zu dieser Anziehung kommt.
 > 2. Die Kugel wird aufgrund der Anziehung um 30° aus der Ruhelage ausgelenkt. Ein empfindlicher Kraftmesser zeigt an, dass im Faden die Kraft $F_F = 20mN$ wirkt. Zeichne einen sauberen Kräfteplan und bestimme mit dessen Hilfe den Betrag $F_E$ der horizontal wirkenden elektrischen Kraft, welche von der Platte auf die Kugel ausgeübt wird.
+
+<!-- missing -->

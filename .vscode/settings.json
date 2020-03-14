@@ -80,7 +80,8 @@
     "cSpell.ignoreRegExpList": [
         "\\$.*?\\$", // Inlinestyle Latex in Markdown
         "\\$\\$[\\s\\S]+?\\$\\$", // Displaystyle Latex in Markdown
-        "```[\\s\\S]+?```" // Codefences in Markdown
+        "```[\\s\\S]+?```", // Codefences in Markdown
+        "\\(#.*?\\)" // Markdown TOC mit Mathematik
     ],
     "cSpell.allowCompoundWords": true,
     "cSpell.words": [
@@ -93,9 +94,11 @@
         "Fahnenapelle",
         "GMOs",
         "Horni",
+        "Mekruphy",
         "Melita",
         "NSDAP",
         "Phet",
+        "Proportionalitätskonstante",
         "TALENs",
         "Transgenics",
         "Unternehmensfinazierung",

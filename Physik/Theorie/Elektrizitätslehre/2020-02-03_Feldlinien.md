@@ -14,7 +14,7 @@
     - Widerspruch zu erstem Punkt
     - Verletzt den Energieerhaltungssatz
 - Feldlinien können sich nicht kreuzen
-    - Im Kreuzungspunkt ist die Praft auf eine Probeladung nicht eindeutig definiert
+    - Im Kreuzungspunkt ist die Kraft auf eine Probeladung nicht eindeutig definiert
 
 ## Aufgaben zu Feldlinien
 

@@ -63,7 +63,7 @@ $$
 
 > Ein Supercap ist im Prinzip ein Plattenkondensator. Allerdings sind die elektrischen Platten wie im Bild dargestellt aufgewickelt. Dazwischen befindet sich eine Isolator schicht. Der Abstand der Platten beträgt nur einige Nanometer. Wie man sich anhand der langen Entwicklungszeit vorstellen kann, ist das "Innenleben" eines solchen Kondensators kompliziert und es kann im Unterricht nicht näher darauf eingegangen werden.
 
-> Nennen Sie drei anwendungen von Supercaps
+> Nennen Sie drei Anwendungen von Supercaps
 
 <!-- missing -->
 

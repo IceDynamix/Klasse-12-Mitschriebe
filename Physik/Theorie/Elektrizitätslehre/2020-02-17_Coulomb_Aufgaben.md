@@ -20,6 +20,8 @@
 
 > Zwei gleich geladene kleine Kugeln sind im selben Punkt an zwei $1m$ langen Isolierfaden aufgehängt. Die Masse einer Kugel beträgt $1g$. Wegen ihrer gleichen ladung stoßen sie sich auf einen Mittelpunktabstand von $4cm$ ab. Wie groß ist die Ladung einer Kugel?
 
+[Leifi](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/doppelpendel)
+
 ## Aufgabe 6
 
 > In einem frühen Modell des Wasserstoffatoms stellte man sich vor, dass ein Elektron ($q_e = -1.6 \cdot 10^{-19} As$) gleichförmig auf einer Kreisbahn mit dem Radius $r = 5.29 \cdot 10^{-11} m$ um den Kern des Wasserstoffatoms kreist. Der Kern besteht aus einem Proton mit der Ladung $q_p = +1.6 \cdot 10^{-19} As$.
@@ -27,3 +29,5 @@
 > Berechnen Sie den Betrag der elektrostatischen Anziehungskraft $F_{el}$ zwischen Kern und Elektron.
 >
 > Ber Vernachlässigung anderer Kräfte muss bei der Bewegung des Elektrons auf einer Kreisbahn die elektrostatische Anziehungskraft die Zentralkraft darstellen. Die Masse des Elektrons ist $m_e = 9.1 \cdot 10^{-31} kg$. Berechnen Sie unter diesen Annahmen die Geschwindigkeit des Elektrons auf der Kreisbahn, sowie dessen Umlaufdauer $T$.
+
+[Leifi](https://www.leifiphysik.de/elektrizitaetslehre/ladungen-elektrisches-feld/aufgabe/elektrische-kraefte-im-wasserstoffatom)

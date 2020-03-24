@@ -81,7 +81,8 @@
         "\\$.*?\\$", // Inlinestyle Latex in Markdown
         "\\$\\$[\\s\\S]+?\\$\\$", // Displaystyle Latex in Markdown
         "```[\\s\\S]+?```", // Codefences in Markdown
-        "\\(#.*?\\)" // Markdown TOC mit Mathematik
+        "\\(#.*?\\)", // Markdown TOC mit Mathematik
+        "!?\\[.*?\\]\\(.*\\)" // Markdown images/links
     ],
     "cSpell.allowCompoundWords": true,
     "cSpell.words": [

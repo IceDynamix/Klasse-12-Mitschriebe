@@ -1,3 +1,5 @@
 # e-Funktionen
 
-<!-- missing -->
+$g(x) = e^{f(x)}$
+
+$g'(x) = f'(x) e^{f(x)}$

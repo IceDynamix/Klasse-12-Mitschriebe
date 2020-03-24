@@ -109,5 +109,8 @@
         "ungleichnamige",
         "ungleichnamigen",
         "Äquipotentiallinien"
-    ]
+    ],
+    "markdown.extension.list.indentationSize": "inherit",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
 }

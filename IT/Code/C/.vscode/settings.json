@@ -50,5 +50,9 @@
         "**/*.xdb": true,
         "**/*.XRF": true,
         "**/*.lst": true,
-    }
+    },
+    "cSpell.language": "en,de",
+    "cSpell.words": [
+        "sbit"
+    ],
 }

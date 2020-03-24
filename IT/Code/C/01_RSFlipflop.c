@@ -13,7 +13,6 @@ sbit LED = P2_2;
 
 void main()
 {
-
     Grundeinstellungen();
     LED = 0;
 

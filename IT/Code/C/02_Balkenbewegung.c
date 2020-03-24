@@ -20,13 +20,13 @@ void main()
     {
         if (!T1)
         {
-            LEDs <<= 1;
+            LEDs >>= 1;
             while (!T1)
                 continue;
         }
         if (!T2)
         {
-            LEDs >>= 1;
+            LEDs <<= 1;
             while (!T2)
                 continue;
         }

@@ -116,5 +116,11 @@
     ],
     "markdown.extension.list.indentationSize": "inherit",
     "editor.insertSpaces": true,
-    "editor.tabSize": 4
+    "editor.tabSize": 4,
+    "cSpell.ignoreWords": [
+        "davidanson",
+        "dougfinke",
+        "kzvi",
+        "yzhang"
+    ]
 }

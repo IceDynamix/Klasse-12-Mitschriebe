@@ -104,14 +104,17 @@
         "Phet",
         "Proportionalitätskonstante",
         "Reflektionsfähigkeit",
+        "Repititio",
         "Schwersenz",
         "TALENs",
         "Transgenics",
         "Unternehmensfinazierung",
         "ZFNs",
         "Zerdenken",
+        "positiviert",
         "ungleichnamige",
         "ungleichnamigen",
+        "zweiseitigkeit",
         "Äquipotentiallinien"
     ],
     "markdown.extension.list.indentationSize": "inherit",
@@ -121,6 +124,8 @@
         "davidanson",
         "dougfinke",
         "kzvi",
-        "yzhang"
-    ]
+        "yzhang",
+        "zsch"
+    ],
+    "python.pythonPath": "C:\\Users\\Cytix\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
 }

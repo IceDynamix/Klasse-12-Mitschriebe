@@ -1,1 +1,3 @@
-GGK/indent.log
+*.aux
+*.log
+temp.*

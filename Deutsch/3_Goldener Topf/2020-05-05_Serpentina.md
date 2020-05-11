@@ -17,7 +17,7 @@ Zweite Vigilie $\rightarrow$ zieht Anselmus in ihren Bann
 Vierte Vigilie $\rightarrow$ glücklich & verspielt
 Achte Vigilie $\rightarrow$ verführerisches junges Mädchen
 
-$\implies$ entscheidende Rolle für den Fortgang der HAndlung
+$\Longrightarrow$ entscheidende Rolle für den Fortgang der HAndlung
 
 ## Aufgabe 2, 3
 
@@ -31,4 +31,14 @@ $\implies$ entscheidende Rolle für den Fortgang der HAndlung
     - sehr starke Liebe des Salamanders
         - Feuer der Liebe
     - Salamander zerstört den Garten
-        - schönes, positives Bild
+    - $\Longrightarrow$ **schönes, positives Bild**
+- Gegenwart
+    - Bestrafung durch Phosphorus $\rightarrow$ Verbannung
+    - Natur zerstört, Einklang mit der Natur ist nicht mehr vorhanden
+    - Jünglinge/junge Männer werden zur Überwindung des Zustandes benötigt
+    - $\Longrightarrow$ **tristes, negatives Bild**
+- Zukunft
+    - Schlangen (Töchter) werden vermählt, Jünglinge bekommen den Topf
+        - $\rightarrow$ daraus wächst eine Feuerlilie
+
+<!-- missing -->

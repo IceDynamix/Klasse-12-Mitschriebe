@@ -40,7 +40,7 @@ void ISR_EX0(void) interrupt 0
 void initInterrupt(void)
 {
     IT0 = 1;             // Negative Flanke
-    EX0 = 1;             // Enable Timer 0 Interrupt
+    EX0 = 1;             // Enable Extern 0 Interrupt
     EA = 1;              // Enable interrupts in general
     IT01CF = 0b00000111; // P0.7
 }
